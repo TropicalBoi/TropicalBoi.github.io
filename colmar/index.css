@@ -1,15 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
 * {
   margin: 0px;
 }
 
 body {
-  font-family: 'Avenir Next LT Pro', sans-serif;
-  max-width: 1280px;
+  font-family: "Open Sans", "Avenir Next LT Pro", sans-serif;
+  max-width: 100%;
   margin: auto;
 }
 
-#banner-container {
+#navbar {
+  height: 64px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
+#logo-container {
+  height: 70%;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 24px;
+}
+
+#logo{
+  height: 100%;
+}
+
+#logo-font{
+  font-size: 2.5vmin;
+} 
+
+#banner-container {
   display: flex;
   align-items: center;
   padding: 32px 24px;
@@ -21,20 +49,24 @@ body {
 }
 
 #banner-container #banner-text {
-  max-width: 300px;
+  max-width: 30%;
   display: flex;
   flex-direction: column;
-  margin-left: 24px;
+  margin-left: 40px;
 }
 
 #banner-container #banner-text h1 {
-  margin-top: 24px;
   color: #4a4a4a;
+  margin: 24px 0;
+  font-size: 6vmin;
+  line-height: 60px;
 }
 
 #banner-container #banner-text p {
   color: #4a4a4a;
-  margin-top: 24px;
+  margin: 24px 0;
+  font-size: 3.3vmin;
+  font-weight: 600;
 }
 
 #banner-container #banner-text button {
@@ -43,4 +75,5 @@ body {
   border: unset;
   padding: 8px 0px;
   margin-top: 24px;
+  font-size: 3vmin;
 }
