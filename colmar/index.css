@@ -28,6 +28,12 @@ body {
   align-items: center;
 }
 
+#mobile {
+  display: none;
+}
+
+
+
 #navbar {
   height: 64px;
   width: 100%;
@@ -152,6 +158,21 @@ body {
   width: 40%;
   margin-top: 16px;
 }
+
+#headline-showcase {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px;
+  width: 60%;
+}
+
+#sub-headlines-showcase {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 16px;
+}
+
 
 #sub-headline:hover {
   background-color: #d7d7d7;
